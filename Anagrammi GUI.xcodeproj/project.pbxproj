@@ -13,6 +13,13 @@
 		4974AD0C2B7382790088DE46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4974AD0B2B7382790088DE46 /* Preview Assets.xcassets */; };
 		4974AD152B7393B20088DE46 /* WordsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974AD142B7393B20088DE46 /* WordsList.swift */; };
 		4974AD172B73B0FE0088DE46 /* InsertSentencePopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974AD162B73B0FE0088DE46 /* InsertSentencePopover.swift */; };
+		49B94F472B744555000C7236 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974AD062B7382780088DE46 /* ContentView.swift */; };
+		49B94F482B744555000C7236 /* WordsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974AD142B7393B20088DE46 /* WordsList.swift */; };
+		49B94F492B744555000C7236 /* AnagrammiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974AD042B7382780088DE46 /* AnagrammiApp.swift */; };
+		49B94F4A2B744555000C7236 /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E0E91D2B742D170077B53B /* Toolbar.swift */; };
+		49B94F4B2B744555000C7236 /* InsertSentencePopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974AD162B73B0FE0088DE46 /* InsertSentencePopover.swift */; };
+		49B94F4E2B744555000C7236 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4974AD0B2B7382790088DE46 /* Preview Assets.xcassets */; };
+		49B94F4F2B744555000C7236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4974AD082B7382790088DE46 /* Assets.xcassets */; };
 		49E0E91E2B742D170077B53B /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E0E91D2B742D170077B53B /* Toolbar.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,11 +32,19 @@
 		4974AD0D2B7382790088DE46 /* Anagrammi_GUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Anagrammi_GUI.entitlements; sourceTree = "<group>"; };
 		4974AD142B7393B20088DE46 /* WordsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsList.swift; sourceTree = "<group>"; };
 		4974AD162B73B0FE0088DE46 /* InsertSentencePopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSentencePopover.swift; sourceTree = "<group>"; };
+		49B94F532B744555000C7236 /* Old macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Old macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E0E91D2B742D170077B53B /* Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4974ACFE2B7382780088DE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B94F4C2B744555000C7236 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				4974AD012B7382780088DE46 /* Anagrammi GUI.app */,
+				49B94F532B744555000C7236 /* Old macos.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +122,23 @@
 			productReference = 4974AD012B7382780088DE46 /* Anagrammi GUI.app */;
 			productType = "com.apple.product-type.application";
 		};
+		49B94F452B744555000C7236 /* Old macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B94F502B744555000C7236 /* Build configuration list for PBXNativeTarget "Old macos" */;
+			buildPhases = (
+				49B94F462B744555000C7236 /* Sources */,
+				49B94F4C2B744555000C7236 /* Frameworks */,
+				49B94F4D2B744555000C7236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Old macos";
+			productName = "Anagrammi GUI";
+			productReference = 49B94F532B744555000C7236 /* Old macos.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -135,6 +168,7 @@
 			projectRoot = "";
 			targets = (
 				4974AD002B7382780088DE46 /* Anagrammi GUI */,
+				49B94F452B744555000C7236 /* Old macos */,
 			);
 		};
 /* End PBXProject section */
@@ -146,6 +180,15 @@
 			files = (
 				4974AD0C2B7382790088DE46 /* Preview Assets.xcassets in Resources */,
 				4974AD092B7382790088DE46 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B94F4D2B744555000C7236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B94F4E2B744555000C7236 /* Preview Assets.xcassets in Resources */,
+				49B94F4F2B744555000C7236 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +204,18 @@
 				4974AD052B7382780088DE46 /* AnagrammiApp.swift in Sources */,
 				49E0E91E2B742D170077B53B /* Toolbar.swift in Sources */,
 				4974AD172B73B0FE0088DE46 /* InsertSentencePopover.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B94F462B744555000C7236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B94F472B744555000C7236 /* ContentView.swift in Sources */,
+				49B94F482B744555000C7236 /* WordsList.swift in Sources */,
+				49B94F492B744555000C7236 /* AnagrammiApp.swift in Sources */,
+				49B94F4A2B744555000C7236 /* Toolbar.swift in Sources */,
+				49B94F4B2B744555000C7236 /* InsertSentencePopover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Anagrammi GUI/Anagrammi_GUI.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -298,12 +354,14 @@
 				DEVELOPMENT_TEAM = 2RGJZ7QY5B;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.marini.Anagrammi-GUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -318,6 +376,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Anagrammi GUI/Anagrammi_GUI.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -325,12 +384,75 @@
 				DEVELOPMENT_TEAM = 2RGJZ7QY5B;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marini.Anagrammi-GUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		49B94F512B744555000C7236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Anagrammi GUI/Anagrammi_GUI.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Anagrammi GUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RGJZ7QY5B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marini.Anagrammi-GUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = "$(inherited) LEGACY_MACOS";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		49B94F522B744555000C7236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Anagrammi GUI/Anagrammi_GUI.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Anagrammi GUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RGJZ7QY5B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.marini.Anagrammi-GUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +478,15 @@
 			buildConfigurations = (
 				4974AD112B7382790088DE46 /* Debug */,
 				4974AD122B7382790088DE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B94F502B744555000C7236 /* Build configuration list for PBXNativeTarget "Old macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B94F512B744555000C7236 /* Debug */,
+				49B94F522B744555000C7236 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

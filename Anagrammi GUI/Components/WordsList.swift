@@ -37,6 +37,3 @@ struct WordsList: View {
     }
 }
 
-#Preview {
-    WordsList(title:"Title", words:"Parole")
-}

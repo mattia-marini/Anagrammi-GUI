@@ -20,12 +20,16 @@ struct InsertSentencePopover: View {
                 .onTapGesture { popover=true }
         }
         .background()
+        #if LEGACY_MACOS
+        .cornerRadius(10)
+        #else
         .clipShape(.buttonBorder)
         .onChange(of: popover){ _, newValue in
             if !newValue {
                 print(frase)
             }
         }
+        #endif
         .popover(isPresented: $popover){
             ZStack {
                 TextEditor(text: $frase)
@@ -40,8 +44,4 @@ struct InsertSentencePopover: View {
     }
 }
 
-#Preview {
-    Text("prova")
-    //@State var text = "prova"
-    //InsertSentencePopover(frase:$text)
-}
+
