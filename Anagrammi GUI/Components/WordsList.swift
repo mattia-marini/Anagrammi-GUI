@@ -12,7 +12,6 @@ struct WordsList: View {
     var title: String
     var words: String
     
-    
     var body: some View {
         VStack{
             Text(title)

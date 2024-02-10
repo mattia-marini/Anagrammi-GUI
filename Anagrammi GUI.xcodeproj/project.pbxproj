@@ -13,6 +13,10 @@
 		4974AD0C2B7382790088DE46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4974AD0B2B7382790088DE46 /* Preview Assets.xcassets */; };
 		4974AD152B7393B20088DE46 /* WordsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974AD142B7393B20088DE46 /* WordsList.swift */; };
 		4974AD172B73B0FE0088DE46 /* InsertSentencePopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974AD162B73B0FE0088DE46 /* InsertSentencePopover.swift */; };
+		49753F652B76E08700AFBA0C /* WordImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49753F642B76E08700AFBA0C /* WordImporter.swift */; };
+		49753F662B77DEDC00AFBA0C /* WordImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49753F642B76E08700AFBA0C /* WordImporter.swift */; };
+		49753F892B77EE0800AFBA0C /* Words in Resources */ = {isa = PBXBuildFile; fileRef = 49753F882B77EE0800AFBA0C /* Words */; };
+		49753F8A2B77EE0800AFBA0C /* Words in Resources */ = {isa = PBXBuildFile; fileRef = 49753F882B77EE0800AFBA0C /* Words */; };
 		49B94F472B744555000C7236 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974AD062B7382780088DE46 /* ContentView.swift */; };
 		49B94F482B744555000C7236 /* WordsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974AD142B7393B20088DE46 /* WordsList.swift */; };
 		49B94F492B744555000C7236 /* AnagrammiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974AD042B7382780088DE46 /* AnagrammiApp.swift */; };
@@ -32,6 +36,8 @@
 		4974AD0D2B7382790088DE46 /* Anagrammi_GUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Anagrammi_GUI.entitlements; sourceTree = "<group>"; };
 		4974AD142B7393B20088DE46 /* WordsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsList.swift; sourceTree = "<group>"; };
 		4974AD162B73B0FE0088DE46 /* InsertSentencePopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSentencePopover.swift; sourceTree = "<group>"; };
+		49753F642B76E08700AFBA0C /* WordImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordImporter.swift; sourceTree = "<group>"; };
+		49753F882B77EE0800AFBA0C /* Words */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Words; sourceTree = "<group>"; };
 		49B94F532B744555000C7236 /* Old macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Old macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E0E91D2B742D170077B53B /* Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,11 +80,13 @@
 		4974AD032B7382780088DE46 /* Anagrammi GUI */ = {
 			isa = PBXGroup;
 			children = (
+				49753F632B76E06600AFBA0C /* model */,
 				4974AD132B7393970088DE46 /* Components */,
 				4974AD042B7382780088DE46 /* AnagrammiApp.swift */,
 				4974AD062B7382780088DE46 /* ContentView.swift */,
 				4974AD082B7382790088DE46 /* Assets.xcassets */,
 				4974AD0D2B7382790088DE46 /* Anagrammi_GUI.entitlements */,
+				49753F622B76E03C00AFBA0C /* Resources */,
 				4974AD0A2B7382790088DE46 /* Preview Content */,
 			);
 			path = "Anagrammi GUI";
@@ -100,6 +108,22 @@
 				49E0E91D2B742D170077B53B /* Toolbar.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		49753F622B76E03C00AFBA0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49753F882B77EE0800AFBA0C /* Words */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		49753F632B76E06600AFBA0C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				49753F642B76E08700AFBA0C /* WordImporter.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49753F892B77EE0800AFBA0C /* Words in Resources */,
 				4974AD0C2B7382790088DE46 /* Preview Assets.xcassets in Resources */,
 				4974AD092B7382790088DE46 /* Assets.xcassets in Resources */,
 			);
@@ -187,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49753F8A2B77EE0800AFBA0C /* Words in Resources */,
 				49B94F4E2B744555000C7236 /* Preview Assets.xcassets in Resources */,
 				49B94F4F2B744555000C7236 /* Assets.xcassets in Resources */,
 			);
@@ -204,6 +230,7 @@
 				4974AD052B7382780088DE46 /* AnagrammiApp.swift in Sources */,
 				49E0E91E2B742D170077B53B /* Toolbar.swift in Sources */,
 				4974AD172B73B0FE0088DE46 /* InsertSentencePopover.swift in Sources */,
+				49753F652B76E08700AFBA0C /* WordImporter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49B94F472B744555000C7236 /* ContentView.swift in Sources */,
+				49753F662B77DEDC00AFBA0C /* WordImporter.swift in Sources */,
 				49B94F482B744555000C7236 /* WordsList.swift in Sources */,
 				49B94F492B744555000C7236 /* AnagrammiApp.swift in Sources */,
 				49B94F4A2B744555000C7236 /* Toolbar.swift in Sources */,
@@ -361,7 +389,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.marini.Anagrammi-GUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -391,7 +419,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.marini.Anagrammi-GUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
