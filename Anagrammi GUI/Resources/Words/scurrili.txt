@@ -94,8 +94,8 @@ coprofilo
 cornutoilpapa
 credoana
 cretinetti
-cristodundio
 cristodecapitato
+cristodundio
 cristoincroce
 culattone
 culattoni
@@ -262,11 +262,11 @@ mannaggiadio
 mannaggiailbattesimo
 mannaggiailclero
 mannaggiaisanti
-mannaggialarcangelo
 mannaggialabibbia
 mannaggialadiocesi
 mannaggialamadonna
 mannaggialaputtana
+mannaggialarcangelo
 mannaggiapadrepio
 mannaggiasangiuseppe
 merda
@@ -330,12 +330,6 @@ porcodidio
 porcodio
 porcoilclero
 porcoilsignore
-pro-ana
-pro-anoressia
-pro-bulimia
-pro-ed
-pro-ednos
-pro-mia
 proana
 proanoressia
 probulimia
